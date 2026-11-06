@@ -1,0 +1,11 @@
+# Dynamic lights — torch/lantern in hand.
+# Allowed values: OFF, FASTEST, FAST, FANCY
+mode = "FAST"
+
+[light_sources]
+	entities = true
+	self = true
+	block_entities = true
+	water_sensitive_check = true
+	creeper = "simple"
+	tnt = "off"

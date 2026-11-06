@@ -1,9 +1,11 @@
-# Dynamic lights for the client pack.
-# FAST is a good default for i5 / integrated GPU. Use "fancy" if FPS allows.
-mode = "fast"
-entities = true
-block_entities = true
-self = true
-water_sensitive_check = true
-creeper_lighting = "simple"
-tnt_lighting = "off"
+# Dynamic lights — torch/lantern in hand.
+# Allowed values: OFF, FASTEST, FAST, FANCY
+mode = "FAST"
+
+[light_sources]
+	entities = true
+	self = true
+	block_entities = true
+	water_sensitive_check = true
+	creeper = "simple"
+	tnt = "off"
